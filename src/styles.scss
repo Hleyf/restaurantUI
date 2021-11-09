@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+// @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Thasadith:ital@1&display=swap');
+
+p,a,span,h1,h2,h3, label {
+    color: #355b83 !important;
+    font-family: 'Thasadith', sans-serif;
+
+}
+h3{
+    color: #355b83 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
