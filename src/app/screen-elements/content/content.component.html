@@ -1,0 +1,18 @@
+<div nz-row nzJustify="center" nzAlign="top" style="margin-top: 2em;">
+    <div nz-col nzSpan="5" *ngFor="let item of feeds" style="margin-left: 2em;">
+            <app-feed-card
+            [title]="item.title"
+            [description]="item.description"
+            [source]="item.source"></app-feed-card>
+    </div>
+</div>
+<div nz-row nzJustify="center" nzAlign="top">
+    <div nz-col nzSpan="21" class="content" *ngFor="let item of contents">
+        <app-paralax-section
+        [imgPath]="item.imgPath"
+        [title]="item.title"
+        [extra]="item.extra">
+    </app-paralax-section>
+        <br>
+    </div>
+</div>

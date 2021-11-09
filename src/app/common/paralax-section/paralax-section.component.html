@@ -1,0 +1,9 @@
+<div nz-row class="view intro jarallax" *ngIf="imgPath"
+     style="background-image: url({{imgPath}}); background-attachment: fixed; height: 300px;">
+            <!-- <div nz-row [nzGutter]="8" style="padding: 3em; z-index: 500; background-color:transparent;"> -->
+                    <nz-card class="card">
+                        <P *ngIf="extra !== ''">{{extra}}</P>
+                        <h3 *ngIf="title">{{title}}</h3> 
+                    </nz-card>
+            <!-- </div> -->
+</div>

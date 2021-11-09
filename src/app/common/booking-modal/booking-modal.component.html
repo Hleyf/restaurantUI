@@ -1,0 +1,18 @@
+<h1>{{resource}}</h1>
+
+<div>
+    <label>Comensales</label>
+    <br>
+    <nz-input-number [(ngModel)]="tableSize" [nzMin]="1" [nzMax]="14" [nzStep]="1" class="num_input"></nz-input-number> 
+</div>
+<br>
+<div>
+    <nz-date-picker
+    nzInline
+    nzShowTime
+    nzFormat = "dd/MM/YYY HH"
+    [(ngModel)]="booking"
+    (ngModelChange)="onChange($event)"
+    [nzBorderless]="true"
+    ></nz-date-picker>
+</div>
