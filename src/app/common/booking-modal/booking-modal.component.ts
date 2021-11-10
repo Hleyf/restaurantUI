@@ -17,7 +17,7 @@ export class BookingModalComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onChange(e : Date){
+  onChange(e : Event){
     console.log(e);
   }
 }

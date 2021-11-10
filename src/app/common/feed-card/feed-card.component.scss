@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 .feed-card{
     background-color: white;
     width: 240px;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 0.8em;
-    color: #355b83;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    // color: #355b83;
+    p{
+        font-weight: normal !important;
+        font-style: italic;
+        font-family: 'Lato', sans-serif;
+    }
+    h2{
+        // font-size: 1.2em;
+        font-weight: bold !important;
+       }
 }
 
 .feed-img {
@@ -15,3 +26,5 @@
     width:240px;
     height:240px;
 }
+
+

@@ -1,18 +1,16 @@
-<h1>{{resource}}</h1>
+<h1><b>{{resource}}</b></h1>
+<div nz-row>
+    <div nz-col nzSpan="4"></div>
+    <div nz-col nzJustify="center" nzSpan="8" style="position: relative; bottom: 1em;">
+        <label>Comensales:</label>
+        <nz-input-number [(ngModel)]="tableSize" [nzMin]="1" [nzMax]="14" [nzStep]="1" class="num_input" ></nz-input-number> 
+    </div>
+    <div  nz-col nzJustify="center" nzSpan="8" style="position: relative; top: 0.5em;">
+        <nz-date-picker
+        [nzShowTime]="{ nzFormat: 'HH:mm', nzMinuteStep: 15}"
+        nzFormat="yyyy-MM-dd HH:mm"
+        (ngModelChange)="onChange($event)">
+        </nz-date-picker>
+    </div>
+</div>
 
-<div>
-    <label>Comensales</label>
-    <br>
-    <nz-input-number [(ngModel)]="tableSize" [nzMin]="1" [nzMax]="14" [nzStep]="1" class="num_input"></nz-input-number> 
-</div>
-<br>
-<div>
-    <nz-date-picker
-    nzInline
-    nzShowTime
-    nzFormat = "dd/MM/YYY HH"
-    [(ngModel)]="booking"
-    (ngModelChange)="onChange($event)"
-    [nzBorderless]="true"
-    ></nz-date-picker>
-</div>
