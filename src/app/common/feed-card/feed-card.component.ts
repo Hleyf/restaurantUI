@@ -11,6 +11,8 @@ export class FeedCardComponent implements OnInit {
   @Input() description : string = '';
   @Input() source : string = '';
 
+  public body =  "red";
+
   constructor() { }
 
   ngOnInit(): void {

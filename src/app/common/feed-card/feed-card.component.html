@@ -1,5 +1,5 @@
-<nz-card nzHoverable class="feed-card" [nzCover]="coverTemplate">
-    <nz-card-meta nzTitle="{{title}}" nzDescription="{{description}}"></nz-card-meta>
+<nz-card nzHoverable class="feed-card" [nzCover]="coverTemplate" [nzBodyStyle]="{ color: 'red' }">
+    <h2>{{title}}</h2><p>{{description}}</p>
   </nz-card>
   <ng-template #coverTemplate>
     <img class="feed-img" alt="example" src="{{source}}" />
