@@ -24,6 +24,7 @@ import { NzTimePickerModule } from 'ng-zorro-antd/time-picker';
 import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { FeedCardComponent } from './common/feed-card/feed-card.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -59,6 +60,7 @@ registerLocaleData(es);
         deps: [HttpClient]
       }
     }),
+    AppRoutingModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: es_ES }],
   bootstrap: [AppComponent]

@@ -13,11 +13,11 @@
         text-align: center;
         font-weight: bolder !important;
         font-size: 4em;
-        color: #355b83 !important;
+        color: #3C4856 !important;
     }
     h3{
         text-align: center;
-        color: #6A8DB8 !important;
+        color: #44617E !important;
         position: relative;
         top: -2em;
         opacity:75%;
@@ -25,7 +25,7 @@
 
     .line-1 {
         height: 1px;
-        background:#6A8DB8 !important;
+        background:#3C4856!important;
         position: relative;
         top: -2em;
 
@@ -41,9 +41,10 @@
         text-align: center;
         font-weight: lighter;
         font-size: 1.5em;
-        color: #6A8DB8 !important;
+        color: #3C4856 !important;
         label{
             cursor: pointer;
+            font-weight: bold;
         }
         label + label {
             margin-left: 2em;

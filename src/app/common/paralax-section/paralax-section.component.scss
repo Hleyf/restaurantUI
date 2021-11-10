@@ -11,6 +11,9 @@
     position: relative ; 
     left: 3em; 
     top: 3em;
+    p{
+        font-weight: bold;
+    }
 
     h3 {
         text-align: right;
@@ -27,7 +30,7 @@
         font-size: 1.5em;
         height: 1em;
         margin-left: 0.5em;
-        color: #355b83;
+        // color: #44617E;
         font-style: italic;
     }
 
